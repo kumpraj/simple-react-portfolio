@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
@@ -6,7 +7,7 @@ function Navbar() {
         <ul>
             <li>About Me</li>
             <li>Skills</li>
-            <li>Projects</li>
+            <Link className='list-none' to='/projects'>Projects</Link>
             <li>Contact</li>
         </ul>
     </nav>
