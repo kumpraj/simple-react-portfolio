@@ -4,25 +4,30 @@ import me from '../img/profile_pic.jpg';
 
 function Content() {
   return (
-    <div className='content'>
-        <main>
-            <div>
-                <h1>Hi <img src={wave} alt="wave" width={40} /></h1>
-                <h1>I'm Prajwal</h1>
-                <h1>Full Stack Developer</h1>
-                <p>I design and developer experiences that makes people's live simpler through Web Apps. I work with HTML5, CSS3, JavaScript,React JS, Node JS, Express, MongoDB.</p>
-            </div>
+<div className="hero min-h-screen bg-base-200 overflow-hidden">
+  <div className="hero-content text-center">
+    <div className="min-w">
+      <div className='grid md:grid-cols-2 lg:grid-cols-2 xl-grid-cols-2'>
+        <div className='flex flex-wrap sm:text-center'>
+          <div>
+            <h1 className="text-6xl font-bold md:py-2 lg:py-2 xl:py-2">Hey <img className='inline' src={wave} alt="wave" width={40} /></h1>
+            <h1 className="text-6xl font-bold">I'm Prajwal</h1>
+            <p className="py-6 md:py-2 lg:py-2 xl:py-2 text-2xl sm:my-6 font-semibold leading-relaxed">I am a Web Developer. <br/> I work with HTML5, CSS3, JavaScript,React JS, Node JS, Express, MongoDB.</p>
+          </div>
+        </div>
 
-            <div className='buttons'>
-                <button className="cta hire">Hire ME</button>
-                <button className="cta project">See My Projects</button>
-            </div>
-        </main>
-        <figure>
+        <figure className='text-center min-w mx-auto'>
             <img src={me} alt="Prajwal Kumar" className='me-img' width={350} />
-            <div className='img-bg'></div>
+             <div className='img-bg'></div>
         </figure>
+
+      </div>
+      <button className="mt-4 text-xl btn btn-ghost btn-outline btn-secondary px-6">Hire ME</button>
+        
+        
     </div>
+  </div>
+</div>
   )
 }
 
