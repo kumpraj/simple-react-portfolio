@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import wave from '../img/Emoji.png';
 import me from '../img/profile_pic.jpg';
 
@@ -22,7 +23,9 @@ function Content() {
         </figure>
 
       </div>
-      <button className="mt-4 text-xl btn btn-ghost btn-outline btn-secondary px-6">Hire ME</button>
+      <button className="mt-4 text-xl btn btn-ghost btn-outline btn-secondary px-6">
+        <Link to='/contact'>Hire ME</Link>
+      </button>
         
         
     </div>
