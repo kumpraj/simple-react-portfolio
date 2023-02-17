@@ -8,7 +8,7 @@ function About() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
                 <div className="">
                     <h1 className="text-5xl font-bold text-yellow-500">About Me</h1>
-                    <p className="py-6 text-xl text-white leading-relaxed">I'm very ambitous front-end developer looking for a role in established IT company or a Start Up with a opportunity to work with latest technologies on challenging and diverse projects. 
+                    <p className="py-6 w-2/3 md:w-full mx-auto text-xl text-white leading-relaxed">I'm very ambitous front-end developer looking for a role in established IT company or a Start Up with a opportunity to work with latest technologies on challenging and diverse projects. 
                     <br />
                     I'm confident, naturally curious and consistently working and upskilling.
                     <br />
